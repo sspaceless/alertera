@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-air-alert",
-    "slug": "my-air-alert",
+    "name": "alert-era",
+    "slug": "alert-era",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.spaceless.alertera"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e25c28ca-8c2f-4aaf-bc97-30a8ee78c842"
+      }
     }
   }
 }
