@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spaceless.alertera"
     },
     "android": {
       "adaptiveIcon": {
@@ -37,11 +38,12 @@
     },
     "plugins": [
       "expo-router",
+      "@react-native-firebase/app",
       [
         "expo-notifications",
         {
           "sounds": [
-            "./src/assets/sounds/atomne.wav"
+            ".src/assets/sounds/atomne.wav"
           ]
         }
       ]
