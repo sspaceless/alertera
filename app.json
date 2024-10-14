@@ -4,11 +4,11 @@
     "slug": "alert-era",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./src/assets/images/alarm.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./src/assets/images/alarm.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,18 +17,33 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./src/assets/images/alarm.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.spaceless.alertera"
+      "package": "com.spaceless.alertera",
+      "useNextNotificationsApi": true,
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED"
+      ],
+      "notification": {
+        "sound": true
+      }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/alarm.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "sounds": [
+            "./src/assets/sounds/atomne.wav"
+          ]
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
