@@ -22,6 +22,7 @@
       },
       "package": "com.spaceless.alertera",
       "useNextNotificationsApi": true,
+      "googleServicesFile": "./google-services.json",
       "permissions": [
         "RECEIVE_BOOT_COMPLETED"
       ],
