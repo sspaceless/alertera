@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "alert-era",
-    "slug": "alert-era",
+    "name": "alertera",
+    "slug": "alertera",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/images/alarm.png",
@@ -43,7 +43,7 @@
         "expo-notifications",
         {
           "sounds": [
-            ".src/assets/sounds/atomne.wav"
+            "./src/assets/sounds/atomne.wav"
           ]
         }
       ]
