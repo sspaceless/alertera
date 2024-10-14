@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "1073175235777",
-    "project_id": "alertera-5f481",
-    "storage_bucket": "alertera-5f481.appspot.com"
+    "project_number": "889123255802",
+    "project_id": "alertera-1ecca",
+    "storage_bucket": "alertera-1ecca.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1073175235777:android:82e8a20767eaa7eafe1840",
+        "mobilesdk_app_id": "1:889123255802:android:a8fc8e5727ebe1bdd72043",
         "android_client_info": {
           "package_name": "com.univera.alertera"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyApD-RbL_ic1MoBKR3dbvOX7ngWBylMJpg"
+          "current_key": "AIzaSyCFbgNLl_OMVqEdPFbOgM5_cMyyJOq-MXM"
         }
       ],
       "services": {
